@@ -1,0 +1,12 @@
+{
+  "name": "CoolSlack",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "build": "echo \"Build ok\",",
+    "start": "node server.js"
+  }
+}

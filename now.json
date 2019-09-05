@@ -1,0 +1,24 @@
+{
+  "builds": [{"src": "server.js","use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/sign_in",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/log_in",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },{
+      "src": "/profile",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    }
+    ]
+}
